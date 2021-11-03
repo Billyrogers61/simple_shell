@@ -8,6 +8,7 @@
  */
 void get_cmd(void)
 {
+
 	char cmd[MAX_SIZE_CMD];
 	printf("Shell>\t");
 	fgets(cmd, MAX_SIZE_CMD, stdin);
@@ -18,11 +19,13 @@ void get_cmd(void)
 
 Void convert_cmd(void)
 {
+
 	char *argv[MAX_SIZE_ARG];
 	char = i;
 	char *ptr;
-	i=0;
+	i = 0;
 	ptr = strtok(cmd, " ");
+
 	while(ptr != NULL)
 	{
 		argv[i] = ptr;
