@@ -11,10 +11,10 @@
 
 
 /* prototype functions */
-void type_prompt();
-void get_cmd();        /* Get command from the user */
-void convert_cmd();   /* Convert the command string to the required fomart */
-void c_shell();      /* Start the shell */
-void log_handle();  /* signal handler to handle log statements */
+void type_prompt(void);
+void get_cmd(void);        /* Get command from the user */
+void convert_cmd(void);   /* Convert the command string to the required fomart */
+void c_shell(void);      /* Start the shell */
+void log_handle(void);  /* signal handler to handle log statements */
 
 #endif /* MAIN_H */
